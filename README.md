@@ -4,6 +4,8 @@ and `npm test`
 
 ## Some comments
 
+**EDIT: I spent 20 minutes when I found time on Saturday to move the components to JSX... Even though it's interesting to see non-JSX'd React code, it's not very easy to read. The code is the same, just a bit nicer :).**
+
 It's funny how awful React looks when not using JSX, but it's an interesting exercise to write it without any transformations. It also makes the whole toolchain for testing and building much easier. Less magic in the way, which is a good think if you want to show how things work.
 
 I could've kept the selected pictures in pictures' state but I like decoupling storage, since it's what usually changes. It also makes things much easier to test.
